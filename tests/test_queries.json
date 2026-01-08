@@ -1,0 +1,87 @@
+[
+  {
+    "question": "What time does the pool open today?",
+    "expected_outcome": "answered",
+    "intent": "ACTIVITY_HOURS"
+  },
+  {
+    "question": "Is the pool closed right now because of thunder?",
+    "expected_outcome": "escalated",
+    "intent": "WEATHER_POLICY"
+  },
+  {
+    "question": "Can my child wear floaties?",
+    "expected_outcome": "answered",
+    "intent": "GENERAL_POLICIES"
+  },
+  {
+    "question": "Do you have lap swimming lanes available?",
+    "expected_outcome": "answered",
+    "intent": "FACILITY_INFO"
+  },
+  {
+    "question": "Are there any swimming lessons for adults?",
+    "expected_outcome": "answered",
+    "intent": "SWIM_LESSONS_INFO"
+  },
+  {
+    "question": "What is the refund policy for canceled lessons?",
+    "expected_outcome": "answered",
+    "intent": "SWIM_LESSONS_INFO"
+  },
+  {
+    "question": "When is the best time to come for fewer crowds?",
+    "expected_outcome": "escalated",
+    "intent": "UNKNOWN"
+  },
+  {
+    "question": "When is the small pool open for public use?",
+    "expected_outcome": "answered",
+    "intent": "ACTIVITY_HOURS"
+  },
+  {
+    "question": "Can I bring my kids to the pool?",
+    "expected_outcome": "answered",
+    "intent": "GENERAL_POLICIES"
+  },
+  {
+    "question": "Can I have a party at the pool?",
+    "expected_outcome": "answered",
+    "intent": "GENERAL_POLICIES"
+  },
+  {
+    "question": "Is there a discount for families?",
+    "expected_outcome": "answered",
+    "intent": "ACTIVITY_FEES"
+  },
+  {
+    "question": "How much does a lap swim pass cost?",
+    "expected_outcome": "answered",
+    "intent": "ACTIVITY_FEES"
+  },
+  {
+    "question": "what are the pool hours for weekdays?",
+    "expected_outcome": "answered",
+    "intent": "ACTIVITY_HOURS"
+  },
+  {
+    "question": "Can I switch my childs swim lesson?",
+    "expected_outcome": "answered",
+    "intent": "SWIM_LESSONS_INFO"
+  },
+  {
+    "question": "What are the different swim levels taught?",
+    "expected_outcome": "answered",
+    "intent": "SWIM_LESSONS_INFO"
+  },
+  {
+    "question": "Is the pool disability friendly?",
+    "expected_outcome": "answered",
+    "intent": "FACILITY_INFO"
+  },
+  {
+    "question": "Do you offer any special activities?",
+    "expected_outcome": "answered",
+    "intent": "UNKNOWN"
+  }
+]

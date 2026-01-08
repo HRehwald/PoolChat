@@ -1,0 +1,57 @@
+[
+  {
+    "id": "rpac_lap_swim_schedule",
+    "source": "website",
+    "facility": "Rengstorff Park Aquatics Center",
+    "retrieved_at": "2026-01-03",
+    "category": "lap_swim",
+    "title": "Adult Lap Swim Schedule",
+    "text": "Adult Lap Swim Schedule at the Rengstorff Park Aquatics Center. Morning Schedule: Monday–Friday 7:30 a.m.–1 p.m.; Saturday–Sunday 9 a.m.–1 p.m. Evening Schedule: Monday, Wednesday, Friday 6:30–8:30 p.m.; Tuesday, Thursday 4:30–8:30 p.m. Holiday Hours: Christmas Eve 9 a.m.–1 p.m. Holiday Break Dec. 25–Jan. 1 Closed.",
+    "notes": "Lap swim is for adults 18 years and older."
+  },
+  {
+    "id": "rpac_teen_lap_swim",
+    "source": "website",
+    "facility": "Rengstorff Park Aquatics Center",
+    "retrieved_at": "2026-01-03",
+    "category": "teen_lap_swim",
+    "title": "Teen Lap Swim Program",
+    "text": "Teen Lap Swim offers water-based exercise for ages 13–17 on Saturdays and Sundays from 1–2 p.m. Guardians are welcome to lap swim with their teens. Drop-in only; current lap swim fees apply per person. Holiday Hours: Dec. 27–28 Closed."
+  },
+  {
+    "id": "rpac_lap_swim_fees",
+    "source": "website",
+    "facility": "Rengstorff Park Aquatics Center",
+    "retrieved_at": "2026-01-03",
+    "category": "fees",
+    "title": "Lap Swim Fees",
+    "text": "Lap Swim Day Pass: $6 resident / $7.50 non-resident. Lap Swim Pass (25 swims): $99 resident / $124 non-resident. Senior Lap Swim Pass (25 swims): $34 resident / $43 non-resident."
+  },
+  {
+    "id": "rpac_lap_swim_rules",
+    "source": "website",
+    "facility": "Rengstorff Park Aquatics Center",
+    "retrieved_at": "2026-01-03",
+    "category": "rules",
+    "title": "Lap Swim Program Rules",
+    "text": "Swimmers must circle swim when lanes reach three or more swimmers. Concurrent aquatics programming may occur. Lap swim is for adults 18+. ADA assistance is available upon request. Aquatics Code of Conduct applies."
+  },
+  {
+    "id": "rpac_recreation_swim",
+    "source": "website",
+    "facility": "Rengstorff Park Aquatics Center",
+    "retrieved_at": "2026-01-03",
+    "category": "recreation_swim",
+    "title": "Recreation Swim Information",
+    "text": "Recreation Swim will reopen on May 23, 2026. Fees: Child (3–17) $4 resident / $5 non-resident; Adult $5 / $6.25; Family $11 / $20; Spectator $3 / $4; Season Family Pass $155. Day passes purchased on-site; season passes online."
+  },
+  {
+    "id": "rpac_recreation_swim_rules",
+    "source": "website",
+    "facility": "Rengstorff Park Aquatics Center",
+    "retrieved_at": "2026-01-03",
+    "category": "rules",
+    "title": "Recreation Swim Rules",
+    "text": "Children under 6 or participants unable to support themselves must be accompanied in the water by an adult. Capacity limits enforced. Groups over 12 require approval two weeks in advance. Coast Guard approved lifejackets only. Swim test required for deep water. No hard balls, non-approved flotation devices, or glass. Swim diapers required for ages 6–36 months. No lap swim during recreation swim."
+  }
+]

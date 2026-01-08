@@ -1,0 +1,263 @@
+{
+  "meta": {
+    "name": "Aquatics Local Knowledge Base",
+    "version": "0.3",
+    "note": "Enhanced with intent classification fields."
+  },
+
+  "entries": [
+    {
+      "id": "facility_address",
+      "intent": "location_inquiry",
+      "question": "Where is the pool located?",
+      "variations": [
+        "What's the address?",
+        "How do I get there?",
+        "Where is RPAC?"
+      ],
+      "answer": "Rengstorff Park Aquatics Center is located at 2073 Crisanto Avenue, Mountain View, CA 94040.",
+      "entities": ["facility"],
+      "keywords": ["address", "location", "where", "directions"]
+    },
+    {
+      "id": "facility_phone",
+      "intent": "contact_inquiry",
+      "question": "What is the phone number for the pool?",
+      "variations": [
+        "How do I contact the pool?",
+        "Can I call someone?",
+        "Who do I reach out to?"
+      ],
+      "answer": "650-903-6351",
+      "entities": ["facility"],
+      "keywords": ["phone", "number", "call", "contact"]
+    },
+    {
+      "id": "pool_temperature",
+      "intent": "amenity_inquiry",
+      "question": "What temperature is the pool?",
+      "variations": [
+        "How warm is the water?",
+        "Is the pool heated?",
+        "Is it cold?"
+      ],
+      "answer": "The pool is maintained at 78–80°F.",
+      "entities": ["pool"],
+      "keywords": ["temperature", "warm", "cold", "degrees", "heated", "hot"]
+    },
+    {
+      "id": "lane_count",
+      "intent": "amenity_inquiry",
+      "question": "How many lap lanes are there?",
+      "variations": [
+        "How many lanes?",
+        "Is there enough space for lap swimming?"
+      ],
+      "answer": "There are 10 lap swim lanes in the main pool as well as 4 in the shallow pool.",
+      "entities": ["lap_swim"],
+      "keywords": ["lanes", "how many", "lap"]
+    },
+    {"id": "lane_types",
+      "intent": "amenity_inquiry",
+      "question": "What types of lap swim lanes are available?",
+      "variations": [
+        "Are there lanes for different speeds?",
+        "Where can I swim?"
+      ],
+      "answer": "There are lanes for different speeds including beginner, intermediate, and advanced lap swim lanes. Please choose a lane that matches your swimming ability. We also have 4 lanes available in the shallow pool for lap swimming.",
+      "entities": ["lap_swim"],
+      "keywords": ["lanes", "fast", "lap", "slow", "beginner", "intermediate", "advanced", "shallow", "speed"]},
+    {
+      "id": "diving_board",
+      "intent": "amenity_availability",
+      "question": "Is there a diving board?",
+      "variations": [
+        "Can I dive?",
+        "Do you have a diving board?"
+      ],
+      "answer": "Yes, there is a diving board at the facility. No flips or spins are allowed off the diving board, make sure to read all the rules on the sign before using the diving board.",
+      "entities": ["amenity"],
+      "keywords": ["diving", "board", "dive", "flips", "front flip", "back flip"]
+    },
+    {
+      "id": "lockers",
+      "intent": "amenity_availability",
+      "question": "Are there lockers available?",
+      "variations": [
+        "Where do I put my stuff?",
+        "Is there storage?",
+        "Do I need to bring a lock?"
+      ],
+      "answer": "Yes, lockers are available but you must bring your own lock.",
+      "entities": ["amenity"],
+      "keywords": ["locker", "lock", "storage", "belongings"]
+    },
+    {
+      "id": "lap_swim_age",
+      "intent": "eligibility_inquiry",
+      "question": "What is the age requirement for lap swim?",
+      "variations": [
+        "How old do I need to be?",
+        "Can my teenager lap swim?",
+        "Is there an age limit?"
+      ],
+      "answer": "Lap swimmers must be 18 or older.",
+      "entities": ["lap_swim", "age"],
+      "keywords": ["age", "requirement", "how old", "adult", "18"]
+    },
+    {
+      "id": "circle_swim",
+      "intent": "policy_inquiry",
+      "question": "What are the lane sharing rules?",
+      "variations": [
+        "Do I have to share a lane?",
+        "What is circle swimming?",
+        "How does lane sharing work?"
+      ],
+      "answer": "Circle swim is required when there are 3 or more swimmers per lane.",
+      "entities": ["lap_swim", "rules"],
+      "keywords": ["circle", "swim", "sharing", "lane", "rules", "etiquette"]
+    },
+    {
+      "id": "teen_lap_swim_schedule",
+      "intent": "schedule_inquiry",
+      "question": "When can teenagers lap swim?",
+      "variations": [
+        "What are teen lap swim hours?",
+        "Can my 15 year old swim laps?",
+        "Is there youth lap swim?"
+      ],
+      "answer": "Teens ages 13–17 can lap swim on Saturday and Sunday from 1–2 p.m.",
+      "entities": ["teen_lap_swim", "schedule"],
+      "keywords": ["teen", "teenager", "13", "17", "youth", "schedule"]
+    },
+    {
+      "id": "teen_lap_swim_guardian",
+      "intent": "policy_inquiry",
+      "question": "Can parents swim with their teenagers during teen lap swim?",
+      "variations": [
+        "Can I accompany my teen?",
+        "Do guardians swim free with teens?"
+      ],
+      "answer": "Yes, guardians may lap swim with their teens during teen lap swim hours.",
+      "entities": ["teen_lap_swim", "guardian"],
+      "keywords": ["parent", "guardian", "teen", "accompany"]
+    },
+    {
+      "id": "rec_swim_opening",
+      "intent": "schedule_inquiry",
+      "question": "When does recreation swim open?",
+      "variations": [
+        "When can I bring my kids?",
+        "Is rec swim available?",
+        "When does the pool open for families?"
+      ],
+      "answer": "Recreation swim reopens on May 23, 2026.",
+      "entities": ["rec_swim", "schedule"],
+      "keywords": ["recreation", "rec", "swim", "open", "start", "2026", "family"]
+    },
+    {
+      "id": "rec_swim_lap_policy",
+      "intent": "policy_inquiry",
+      "question": "Can I lap swim during recreation swim?",
+      "variations": [
+        "Are lanes available during rec swim?",
+        "Can I swim laps when families are there?"
+      ],
+      "answer": "No, lap swimming is not permitted during recreation swim hours.",
+      "entities": ["lap_swim", "rec_swim"],
+      "keywords": ["lap", "recreation", "rec", "allowed", "during"]
+    },
+    {
+      "id": "lesson_registration",
+      "intent": "registration_inquiry",
+      "question": "How do I register for swim lessons?",
+      "variations": [
+        "How do I sign up?",
+        "Where do I enroll my child?",
+        "Can I register online?"
+      ],
+      "answer": "You can register online via ActiveNet, email the registration form to Recreation@MountainView.gov, or register in-person at Mountain View Community Center.",
+      "entities": ["lessons", "registration"],
+      "keywords": ["register", "sign up", "lesson", "class", "enroll"]
+    },
+    
+    {
+      "id": "lesson_inquiries",
+      "intent": "registration_inquiry",
+      "question": "How many lesson levels are there?",
+      "variations": [
+        "Are there advanced classes?",
+        "What kind of lessons do you offer?",
+        "For what level swimmers are the lessons?"
+      ],
+      "answer": "We offer multiple levels of swim lessons ranging from beginner to advanced. Please visit our website or contact the facility for detailed information on each level.",
+      "entities": ["lessons", "registration"],
+      "keywords": ["levels", "how many", "beginner", "class", "lesson"]
+    },
+    {
+      "id": "lesson_refund",
+      "intent": "policy_inquiry",
+      "question": "What is the refund policy for swim lessons?",
+      "variations": [
+        "Can I get my money back?",
+        "What if I need to cancel?",
+        "Is there a cancellation fee?"
+      ],
+      "answer": "Refund requests must be submitted at least 7 days before the first class. There is a $5 processing fee and no refunds are given for missed classes.",
+      "entities": ["lessons", "refund"],
+      "keywords": ["refund", "cancel", "money back", "policy", "fee"]
+    },
+    {
+      "id": "swim_test",
+      "intent": "eligibility_inquiry",
+      "question": "Do I need to pass a swim test?",
+      "variations": [
+        "Is there a swim test?",
+        "How do I access the deep end?",
+        "What do I need to do to swim in deep water?"
+      ],
+      "answer": "Yes, a swim test is required for deep water access.",
+      "entities": ["safety", "deep_water"],
+      "keywords": ["swim", "test", "deep", "water", "requirement"]
+    },
+    {
+      "id": "lifejacket_policy",
+      "intent": "policy_inquiry",
+      "question": "What are the lifejacket rules?",
+      "variations": [
+        "Can I bring my own lifejacket?",
+        "Do you provide floaties?",
+        "What flotation devices are allowed?"
+      ],
+      "answer": "Lifejackets must be Coast Guard approved.",
+      "entities": ["safety", "equipment"],
+      "keywords": ["wear", "lifejacket", "life jacket", "vest", "flotation", "floaties", "child", "kid"]
+    },
+    {
+      "id": "glass_policy",
+      "intent": "policy_inquiry",
+      "question": "Can I bring glass containers to the pool?",
+      "variations": [
+        "Are glass bottles allowed?",
+        "Can I bring a glass water bottle?"
+      ],
+      "answer": "No, glass is not permitted in the facility.",
+      "entities": ["safety", "prohibited"],
+      "keywords": ["glass", "bottle", "container", "allowed"]
+    },
+    {
+      "id": "kids_features",
+      "intent": "amenity_inquiry",
+      "question": "Are there features for kids?",
+      "variations": [
+        "Is there a water slide?",
+        "Is there a shallow area for toddlers?",
+        "What's there for children?"
+      ],
+      "answer": "Yes, the facility has a zero-depth beach entry, water slide, and interactive water features.",
+      "entities": ["amenity", "children"],
+      "keywords": ["fun", "kids", "children", "slide", "water features", "beach entry", "shallow", "toddler"]
+    }
+  ]
+}
